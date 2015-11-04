@@ -108,6 +108,7 @@ a.button {
   width: 179px;
   padding: 12px 8px 12px 8px;
   margin-right: 14px;
+  margin-bottom: 14px;
   font-size: 15px;
   font-weight: bold;
   line-height: 25px;
@@ -161,7 +162,8 @@ a.button span {
 #view-on-github span {
   background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
 }
-#view-on-github {
+
+#downloads a.button:nth-child(3) {
   margin-right: 0;
 }
 
